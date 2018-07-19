@@ -1,0 +1,40 @@
+.site-header {
+  min-height: 120px;
+  background-color: $white;
+  padding:1.5em;
+  border-bottom:3px solid $storm-grey;
+
+  .logo {
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+    display:inline-block;
+    margin-right: 1.5em;
+  }
+
+  .site-title {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0.5rem 0;
+
+      @include respond-to(medium-screen) {
+        @include font-size(4.5);
+        line-height: 1;
+      }
+  }
+
+  .byline {
+    display: block;
+    @include font-size(1.8); 
+  }
+}
+
+.nav-menu {
+  float: right;
+  .nav-menu-item {
+    display: inline-block;
+    margin: 0 0.8em;
+    @include font-size(1.8); 
+  }
+}
+
