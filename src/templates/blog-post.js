@@ -34,7 +34,6 @@ export const BlogPostTemplate = ({
 BlogPostTemplate.propTypes = {
   content: PropTypes.string.isRequired,
   contentComponent: PropTypes.func,
-  description: PropTypes.string,
   title: PropTypes.string,
   helmet: PropTypes.instanceOf(Helmet),
 }
@@ -46,7 +45,6 @@ const BlogPost = ({ data }) => {
     <BlogPostTemplate
       content={post.html}
       contentComponent={HTMLContent}
-      description={post.frontmatter.description}
       helmet={<Helmet title={`${post.frontmatter.title} | Blog`} />}
       title={post.frontmatter.title}
       sectionId={post.frontmatter.sectionId}
@@ -71,7 +69,6 @@ export const pageQuery = graphql`
         date(formatString: "MMMM DD, YYYY")
         title
         sectionId
-        description
       }
     }
   }
