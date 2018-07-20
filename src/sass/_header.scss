@@ -1,20 +1,19 @@
 .site-header {
+  color: $white;
   min-height: 120px;
-  background-color: $white;
-  padding:1.5em;
-  border-bottom:3px solid $storm-grey;
+  background-color: $gray-asparagus;
+  padding:1.5em 1.5em 0;
 
   .logo {
-    border: 1px solid black;
-    height: 100px;
-    width: 100px;
-    display:inline-block;
-    margin-right: 1.5em;
+    margin: 0 auto;
+    height: 85px;
+    width: 120px;
+    display:block;
   }
 
   .site-title {
-    display: inline-block;
-    vertical-align: top;
+    display: block;
+    text-align: center;
     margin: 0.5rem 0;
 
       @include respond-to(medium-screen) {
@@ -30,7 +29,10 @@
 }
 
 .nav-menu {
-  float: right;
+  background: $white;
+  text-align: center;
+  margin:1.5em -1.5em 0;
+  padding:1em 0;
   .nav-menu-item {
     display: inline-block;
     margin: 0 0.8em;

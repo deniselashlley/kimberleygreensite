@@ -11,6 +11,7 @@ h2 {
     @include font-size(2.9); 
     font-family: $bebas-neue-thin;
     font-weight: normal;
+    text-align: center;
 
     @include respond-to(medium-screen) {
         @include font-size(4.2);  
@@ -45,6 +46,16 @@ main {
   @include visuallyhidden;
 }
 
+.profile{
+  @include border-radius(100px);
+  float:left;
+  border:1px solid $black-haze;
+  width: 100px;
+  height: 100px;
+  background: url(../img/profile.jpg) center no-repeat;
+  background-size: cover;
+}
+
 /* sections */
 .section-block--grey {
     padding-top: 1.5rem;
@@ -67,7 +78,7 @@ main {
 
 .footer {
     text-align: center;
-    
+    background-color: $black-haze;
     .social-network {
         float:left;
 
