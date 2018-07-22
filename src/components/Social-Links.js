@@ -9,11 +9,12 @@ import linkedin from '../img/linkedin.svg';
 const SocialLinks = (props) => (
   <div className="social-links">
     <ul className="social-icons">
-        <li className="social-icons--item">
+        { /*<li className="social-icons--item">
           <a href="mailto:consultingupside@gmail.com" aria-label="Email us at consultingupside@gmail.com" className="icon-link">
             <img src={mail} alt="email me"  />
           </a>
         </li>
+        */ }
       <li className="social-icons--item">
         <a href="https://www.linkedin.com/in/kimberleygreen1/" aria-label="Connect with me on linkedin" className="icon-link">
           <img src={linkedin}  alt="Connect with me on linkedin" />

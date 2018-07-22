@@ -41,7 +41,15 @@
   .nav-menu-item {
     display: inline-block;
     margin: 0 0.8em;
-    @include font-size(1.8); 
+    @include font-size(1.8);
+
+    a {
+      color: $storm-grey;
+      
+      &:hover {
+        color: $hippie-blue;
+      }
+    }
   }
 }
 

@@ -1,13 +1,9 @@
 import React from 'react';
 import SocialLinks from './Social-Links';
-import logo from '../img/logo.jpg'
 // import Link from 'gatsby-link'
 
 const Header = () => (
   <header className="site-header">
-    <a href="/" className="logo">
-      <img src={logo} alt="" />
-    </a>
     <h1 className="site-title">
       Kimberley Green
     </h1>

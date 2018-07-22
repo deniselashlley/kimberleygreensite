@@ -31,7 +31,7 @@ h3 {
 }
 
 a, a:visited {
-    color: $storm-grey;
+    color: $hippie-blue;
     text-decoration: none;
 
     &:hover {
@@ -65,6 +65,19 @@ main {
   }
 }
 
+.upside-logo {
+  background: $gray-asparagus url(../img/Upside_BW_WHITE.svg) center -32px /130% no-repeat;
+  width: 200px;
+  height: 150px;
+  padding: 0.8em;
+  margin-bottom: 1em;
+
+  @include respond-to(medium-screen) {
+    float:left;
+    margin:0 1.5em 0 0;
+  }
+}
+
 .content {
   .content--with-image {
       float:left;
@@ -79,8 +92,19 @@ main {
     width: 100%;
 
     @include respond-to(medium-screen) {
-        max-width: 75%;
+      max-width: 50%;
     }
+
+    @include respond-to(large-screen) {
+        max-width: 70%;
+    }
+  }
+}
+
+.section--contactme {
+  a {
+    display: block;
+    text-align: center;
   }
 }
 

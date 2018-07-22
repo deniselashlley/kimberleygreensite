@@ -6,7 +6,7 @@ sectionId: 'contactme'
 date: 2017-01-04T15:04:10.000Z
 ---
 
-* Email: consultingupside@gmail.com
-* LinkedIn: https://www.linkedin.com/in/kimberleygreen1/
-* Instagram handle: https://www.instagram.com/upside.social
-* Twitter handle: https://www.twitter.com/upside_social
+[consultingupside@gmail.com](mailto:consultingupside@gmail.com)
+[Linkedin](https://www.linkedin.com/in/kimberleygreen1/)
+[Instagram](https://www.instagram.com/upside.social)
+[Twitter](https://www.twitter.com/upside_social)
