@@ -10,10 +10,9 @@ const Header = () => (
     </a>
     <h1 className="site-title">
       Kimberley Green
-      <span className="byline">BA. MSc - Social Impact Consultant</span>
     </h1>
-    <nav role="navigation" className="nav-menu">
-      <ul>
+    <nav role="navigation" className="nav">
+      <ul className="nav-menu">
         <li className="nav-menu-item">
           <a href="#aboutme">About Me</a>
         </li>
@@ -24,7 +23,6 @@ const Header = () => (
           <a href="#contactme">Contact</a>
         </li>
       </ul>
-      <SocialLinks showEmailAddress />
     </nav>
     
   </header>

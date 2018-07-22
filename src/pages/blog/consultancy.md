@@ -2,7 +2,7 @@
 templateKey: 'blog-post'
 title: 'The Company: Upside Consulting'
 sectionId: 'consultingservices'
-date: 2017-01-04T15:04:10.000Z
+date: 2017-01-12T15:04:10.000Z
 ---
 
 * We are: A social impact consultancy founded in June 2017, with our registered base in the UK and official representation in Ghana, West Africa.

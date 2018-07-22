@@ -11,12 +11,16 @@ export default class IndexPage extends React.Component {
         <div>
           {posts
             .map(({ node: post }) => (
-              <section id={post.frontmatter.sectionId} className="section" key={post.id}>
+              <section 
+                id={post.frontmatter.sectionId} 
+                className={`section section--${post.frontmatter.sectionId}`} 
+                key={post.id}
+              >
                 <div className="container">
                   <h2>
                     {post.frontmatter.title}
                   </h2>
-                      <div dangerouslySetInnerHTML={{ __html: post.html }} /> 
+                  <div dangerouslySetInnerHTML={{ __html: post.html }} /> 
                 </div>
               </section>
           ))}

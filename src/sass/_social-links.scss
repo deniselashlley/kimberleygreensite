@@ -1,32 +1,29 @@
 .social-links {
 
   .social-icons {
+    margin-bottom: 1em;
 
     .social-icons--item {
       display: inline-block;
+      vertical-align: middle;
 
       .icon-link {
         width:30px;
         height:30px;
         display:block;
+        margin: 0 1em 0 0;
+
+      img {
+        width: 25px;
+        height: 25px;
+        display:block;
+      }
       
-        &.icon-instagram {
-          background: url($image-path + 'facebook.svg') no-repeat;
-        }
-  
-        &.icon-twitter {
-          background: url($image-path + 'instagram.svg') no-repeat;
-        }
-  
-        &.icon-linkedin {
-          background: url($image-path + 'facebook.svg') no-repeat;
-        }
-  
-        &.icon-email {
-          background: url($image-path + 'instagram.svg') no-repeat;
-        }
+      &:hover img{
+        opacity: 0.5;
       }
     }
+  }
     
   }
 }

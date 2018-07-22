@@ -2,7 +2,7 @@
   color: $white;
   min-height: 120px;
   background-color: $gray-asparagus;
-  padding:1.5em 1.5em 0;
+  padding:1.5em 1em 0;
 
   .logo {
     margin: 0 auto;
@@ -12,27 +12,32 @@
   }
 
   .site-title {
+    @include font-size(3.2);
+    font-family: $bebas-neue-regular;
     display: block;
     text-align: center;
-    margin: 0.5rem 0;
-
+    margin: 1.5rem 0 1.25rem;
+    
       @include respond-to(medium-screen) {
         @include font-size(4.5);
         line-height: 1;
       }
   }
 
-  .byline {
-    display: block;
-    @include font-size(1.8); 
-  }
 }
 
 .nav-menu {
   background: $white;
   text-align: center;
-  margin:1.5em -1.5em 0;
+  margin:1.5em 0 0;
   padding:1em 0;
+  font-family: $bebas-neue-regular;
+  display:none;
+
+  @include respond-to(medium-screen) {
+    display:block;
+  }
+
   .nav-menu-item {
     display: inline-block;
     margin: 0 0.8em;

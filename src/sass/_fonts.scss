@@ -1,4 +1,25 @@
 @font-face {
+    font-family: 'Dual 300';
+    src: url('../fonts/dual-300-webfont.woff2') format('woff2'),
+         url('../fonts/dual-300-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face{
+    font-family:'Uni Neue W00 Light';
+    src:url("../fonts/1abe3538-6d4f-4b92-ac74-528536de6139.eot?#iefix");
+    src:url("../fonts/1abe3538-6d4f-4b92-ac74-528536de6139.eot?#iefix") format("eot"),
+    url("../fonts/91094d98-9eb3-4469-9732-b4c657519050.woff2") format("woff2"),
+    url("../fonts/e0245645-e220-4df0-9376-ec0db4e7bd56.woff") format("woff"),
+    url("../fonts/2e503c84-d986-49ad-95a4-50359f580d54.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
     font-family: 'Bebas Neue Bold';
     src: url('../fonts/../fonts/BebasNeueBold.eot');
     src: url('../fonts/BebasNeueBold.eot?#iefix') format('embedded-opentype'),
