@@ -2,6 +2,7 @@
 templateKey: 'blog-post'
 title: 'About Me'
 sectionId: 'aboutme'
+weight: 1
 date: 2018-01-04T15:04:10.000Z
 
 ---

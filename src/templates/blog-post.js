@@ -47,6 +47,7 @@ const BlogPost = ({ data }) => {
       helmet={<Helmet title={`${post.frontmatter.title} | Blog`} />}
       title={post.frontmatter.title}
       sectionId={post.frontmatter.sectionId}
+      
     />
   )
 }
@@ -68,6 +69,7 @@ export const pageQuery = graphql`
         date(formatString: "MMMM DD, YYYY")
         title
         sectionId
+        weight
       }
     }
   }

@@ -1,9 +1,9 @@
 ---
 templateKey: 'blog-post'
 title: 'Keep in touch'
-weight: 1
+weight: 5
 sectionId: 'contactme'
-date: 2017-01-11T15:04:10.000Z
+date: 2017-01-04T15:04:10.000Z
 ---
 
 * [consultingupside@gmail.com](mailto:consultingupside@gmail.com)

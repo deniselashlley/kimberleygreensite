@@ -2,6 +2,7 @@
 templateKey: 'blog-post'
 title: 'The Company: Upside Consulting'
 sectionId: 'consultingservices'
+weight: 2
 date: 2017-12-12T15:04:10.000Z
 ---
 
