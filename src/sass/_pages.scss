@@ -1,0 +1,72 @@
+.section--aboutme {
+  ul {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+    @include respond-to(medium-screen) {
+      max-width: 50%;
+    }
+
+    @include respond-to(large-screen) {
+        max-width: 70%;
+    }
+  }
+
+  .profile {
+    @include border-radius(100%);
+    border:3px solid $black-haze;
+    width: 128px;
+    height: 168px;
+    background: url(../img/profile.jpg) center no-repeat;
+    background-size: cover;
+    margin:0 auto;
+  
+    @include respond-to(medium-screen) {
+      width: 230px;
+      height: 278px;
+      margin:0 1.5em 0 0;
+    }
+  }
+}
+
+.section--consultingservices {
+  .context {
+    @include respond-to(medium-screen) {
+      max-width: 50%;
+    }
+
+    @include respond-to(large-screen) {
+        max-width: 70%;
+    }
+  }
+
+  .upside-logo {
+    background: $gray-asparagus url(../img/Upside_BW_WHITE.svg) center 34% no-repeat;
+    background-size: 145%;
+    width: 220px;
+    height: 150px;
+    padding: 0.7em;
+    margin: 0 auto 1em;
+  
+    @include respond-to(medium-screen) {
+      float:left;
+      margin:0 1.5em 0 0;
+    }
+  }
+}
+
+.section--contactme {
+  ul {
+    li {
+      display: block;
+      text-align: center;
+    }
+  }
+  .inner-wrapper {
+  
+    @include respond-to(medium-screen) {
+      justify-content: center;
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "cms.js": "render-page.js",
+  "cms.js.map": "render-page.js.map",
+  "main.css": "styles.css",
+  "main.js": "render-page.js",
+  "main.js.map": "render-page.js.map",
+  "static/1abe3538-6d4f-4b92-ac74-528536de6139.eot": "static/1abe3538-6d4f-4b92-ac74-528536de6139.4799abba.eot",
+  "static/2e503c84-d986-49ad-95a4-50359f580d54.ttf": "static/2e503c84-d986-49ad-95a4-50359f580d54.ec298ab7.ttf",
+  "static/91094d98-9eb3-4469-9732-b4c657519050.woff2": "static/91094d98-9eb3-4469-9732-b4c657519050.47bc54f8.woff2",
+  "static/dual-300-webfont.woff": "static/dual-300-webfont.abdce4cd.woff",
+  "static/dual-300-webfont.woff2": "static/dual-300-webfont.dd43e659.woff2",
+  "static/e0245645-e220-4df0-9376-ec0db4e7bd56.woff": "static/e0245645-e220-4df0-9376-ec0db4e7bd56.023615f0.woff",
+  "static/logo.jpg": "static/logo.83af6a36.jpg",
+  "static/profile.jpg": "static/profile.5a650372.jpg"
+}

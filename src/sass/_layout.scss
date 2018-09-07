@@ -33,9 +33,11 @@ h3 {
 a, a:visited {
     color: $hippie-blue;
     text-decoration: none;
+    border-bottom:2px solid transparent;
 
     &:hover {
-        text-decoration: underline;
+      border-bottom:2px solid $hippie-blue;
+      color: $hippie-blue;
     }
 }
 
@@ -46,65 +48,24 @@ main {
   }
 }
 
+.inner-wrapper {
+  
+  @include respond-to(medium-screen) {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+  }
+}
+
 .visibility-hidden{
   @include visuallyhidden;
-}
-
-.profile{
-  @include border-radius(100%);
-  border:3px solid $black-haze;
-  width: 230px;
-  height: 300px;
-  background: url(../img/profile.jpg) center no-repeat;
-  background-size: cover;
-  margin: 0 auto 1em;
-
-  @include respond-to(medium-screen) {
-    float:left;
-    margin:0 1.5em 0 0;
-  }
-}
-
-.upside-logo {
-  background: $gray-asparagus url(../img/Upside_BW_WHITE.svg) center -32px /130% no-repeat;
-  width: 200px;
-  height: 150px;
-  padding: 0.8em;
-  margin-bottom: 1em;
-
-  @include respond-to(medium-screen) {
-    float:left;
-    margin:0 1.5em 0 0;
-  }
 }
 
 .content {
   .content--with-image {
       float:left;
-  }
-}
-
-.section--aboutme {
-  ul {
-    float:left;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-
-    @include respond-to(medium-screen) {
-      max-width: 50%;
-    }
-
-    @include respond-to(large-screen) {
-        max-width: 70%;
-    }
-  }
-}
-
-.section--contactme {
-  a {
-    display: block;
-    text-align: center;
   }
 }
 
@@ -130,18 +91,17 @@ main {
 }
 
 /* sections */ 
-
 .section-block {
     text-align: center;
 }
 
 .contact {
-    margin-top: -20rem;
-    position: relative;
-    z-index: 10;
-    a {
-        @include font-size(2.8);    
-    }
+  margin-top: -20rem;
+  position: relative;
+  z-index: 10;
+  a {
+      @include font-size(2.8);    
+  }
 }
 
 .footer {

@@ -20,7 +20,7 @@ export default class IndexPage extends React.Component {
                   <h2>
                     {post.frontmatter.title}
                   </h2>
-                  <div dangerouslySetInnerHTML={{ __html: post.html }} /> 
+                  <div className="inner-wrapper" dangerouslySetInnerHTML={{ __html: post.html }} /> 
                 </div>
               </section>
           ))}

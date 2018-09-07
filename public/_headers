@@ -1,0 +1,44 @@
+## Created with gatsby-plugin-netlify
+
+/*
+  X-Frame-Options: DENY
+  X-XSS-Protection: 1; mode=block
+  X-Content-Type-Options: nosniff
+/static/*
+  Cache-Control: max-age=31536000
+/blog/consultancy/
+  Link: </commons-abe09f3b6b4034ef75e4.js>; rel=preload; as=script
+  Link: </app-c848924c314bcd7851ba.js>; rel=preload; as=script
+  Link: </path---blog-consultancy-80713b5f4f796a4884da.js>; rel=preload; as=script
+  Link: </component---src-templates-blog-post-js-0f37c1011ebce64657ee.js>; rel=preload; as=script
+  Link: </component---src-layouts-index-js-ea4c6eaeb1dfcd5ab61c.js>; rel=preload; as=script
+/blog/about/
+  Link: </commons-abe09f3b6b4034ef75e4.js>; rel=preload; as=script
+  Link: </app-c848924c314bcd7851ba.js>; rel=preload; as=script
+  Link: </path---blog-about-834e30588cf3db3da5d0.js>; rel=preload; as=script
+  Link: </component---src-templates-blog-post-js-0f37c1011ebce64657ee.js>; rel=preload; as=script
+  Link: </component---src-layouts-index-js-ea4c6eaeb1dfcd5ab61c.js>; rel=preload; as=script
+/blog/contact/
+  Link: </commons-abe09f3b6b4034ef75e4.js>; rel=preload; as=script
+  Link: </app-c848924c314bcd7851ba.js>; rel=preload; as=script
+  Link: </path---blog-contact-054b3fcb03fc0ec232c5.js>; rel=preload; as=script
+  Link: </component---src-templates-blog-post-js-0f37c1011ebce64657ee.js>; rel=preload; as=script
+  Link: </component---src-layouts-index-js-ea4c6eaeb1dfcd5ab61c.js>; rel=preload; as=script
+/404/
+  Link: </commons-abe09f3b6b4034ef75e4.js>; rel=preload; as=script
+  Link: </app-c848924c314bcd7851ba.js>; rel=preload; as=script
+  Link: </path---404-a0e39f21c11f6a62c5ab.js>; rel=preload; as=script
+  Link: </component---src-pages-404-js-4503918ea3a16cfcdb75.js>; rel=preload; as=script
+  Link: </component---src-layouts-index-js-ea4c6eaeb1dfcd5ab61c.js>; rel=preload; as=script
+/
+  Link: </commons-abe09f3b6b4034ef75e4.js>; rel=preload; as=script
+  Link: </app-c848924c314bcd7851ba.js>; rel=preload; as=script
+  Link: </path---index-ddc4e1ed782785ae332e.js>; rel=preload; as=script
+  Link: </component---src-pages-index-js-916ad4b6c26db076bcd8.js>; rel=preload; as=script
+  Link: </component---src-layouts-index-js-ea4c6eaeb1dfcd5ab61c.js>; rel=preload; as=script
+/404.html
+  Link: </commons-abe09f3b6b4034ef75e4.js>; rel=preload; as=script
+  Link: </app-c848924c314bcd7851ba.js>; rel=preload; as=script
+  Link: </path---404-html-a0e39f21c11f6a62c5ab.js>; rel=preload; as=script
+  Link: </component---src-pages-404-js-4503918ea3a16cfcdb75.js>; rel=preload; as=script
+  Link: </component---src-layouts-index-js-ea4c6eaeb1dfcd5ab61c.js>; rel=preload; as=script

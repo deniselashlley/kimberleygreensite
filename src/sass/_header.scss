@@ -2,7 +2,7 @@
   color: $white;
   min-height: 120px;
   background-color: $gray-asparagus;
-  padding:1.5em 1em 0;
+  padding:1.5em 1em;
 
   .logo {
     margin: 0 auto;
@@ -13,43 +13,130 @@
 
   .site-title {
     @include font-size(3.2);
+    line-height: 1.1;
     font-family: $bebas-neue-regular;
     display: block;
     text-align: center;
-    margin: 1.5rem 0 1.25rem;
+    margin: 0.5rem 0;
     
       @include respond-to(medium-screen) {
         @include font-size(4.5);
-        line-height: 1;
+        margin: 1.5rem 0 1.25rem;
       }
   }
 
 }
 
-.nav-menu {
-  background: $white;
-  text-align: center;
-  margin:1.5em 0 0;
-  padding:1em 0;
-  font-family: $bebas-neue-regular;
-  display:none;
+.nav {
 
-  @include respond-to(medium-screen) {
-    display:block;
+  .menu-icon {
+    margin: 0 auto;
+    display: block;
+    width: 45px;
+    height: 45px;
+    transition: transform .2s ease;
+    font-size: 3em;
+
+    &:before {
+      position: absolute;
+      margin-top: -17px;
+      display: block;
+    }
+
+    &.active {
+      transform: rotate(180deg);
+      &:before {
+        content: '\0002DF'; /* close */  
+        font-size: 3em;
+        margin-top: -68px;   
+      }
+    }
+
+    &.inactive {
+      &:before {
+        content: '\2630'; /* menu icon */
+      }
+    }
+
+    @include respond-to(medium-screen) {
+      display: none;
+    }
+
+    &:hover {
+      border:0;
+    }
+
+    span {
+      @include visuallyhidden;
+    }
   }
 
-  .nav-menu-item {
-    display: inline-block;
-    margin: 0 0.8em;
-    @include font-size(1.8);
+  .nav-menu {
+    background: $white;
+    text-align: center;
+    margin:1.5em 0 0;
+    padding:1em 0;
+    font-family: $bebas-neue-regular;
+    display:none;
 
-    a {
-      color: $storm-grey;
-      
-      &:hover {
-        color: $hippie-blue;
+    @include respond-to(medium-screen) {
+      display:block;
+      width: 100%;
+      margin: 0 auto;
+    }
+
+    .nav-menu-item {
+      display: block;
+      margin: 0 0.8em;
+      @include font-size(1.8);
+
+      @include respond-to(medium-screen) {
+        display: inline-block;
+      }
+
+      a {
+        color: $storm-grey;
+        
+        &:hover {
+          color: $hippie-blue;
+        }
+      }
+    }
+
+    &.open {
+      position: absolute;
+      left: 0;
+      display: block;
+      width: 100%;
+      background: $gray-asparagus;
+      margin: 24px 0 0 0;
+      padding: 0;
+      border-top:1px solid $silk;
+      z-index: 99;
+
+      .nav-menu-item {
+        border-bottom:1px solid $silk;
+        margin:0;
+      }
+
+      a {
+        color: $white;
+        
+        &:hover {
+          color: $white;
+        }
+      }
+    }
+
+    &.close {
+      display: none;
+
+      @include respond-to(medium-screen) {
+        display:block;
+        width: 100%;
       }
     }
   }
 }
+
 
