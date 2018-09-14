@@ -3,6 +3,11 @@
   min-height: 120px;
   background-color: $gray-asparagus;
   padding:1.5em 1em;
+  z-index: 99;
+
+  @include respond-to(medium-screen) {
+    position: relative;
+  }
 
   .logo {
     margin: 0 auto;
@@ -28,6 +33,16 @@
 }
 
 .nav {
+  /* position: fixed;
+  width: 100%;
+  left: 0;
+  background-color: $gray-asparagus;
+  z-index: 99; */
+
+  @include respond-to(medium-screen) {
+    position: relative;
+    background-color: $white;
+  }
 
   .menu-icon {
     margin: 0 auto;
@@ -72,7 +87,7 @@
   }
 
   .nav-menu {
-    background: $white;
+    background-color: $gray-asparagus;
     text-align: center;
     margin:1.5em 0 0;
     padding:1em 0;
@@ -80,6 +95,7 @@
     display:none;
 
     @include respond-to(medium-screen) {
+      background-color: white;
       display:block;
       width: 100%;
       margin: 0 auto;
@@ -99,6 +115,7 @@
         
         &:hover {
           color: $hippie-blue;
+          border:0;
         }
       }
     }
@@ -109,14 +126,14 @@
       display: block;
       width: 100%;
       background: $gray-asparagus;
-      margin: 24px 0 0 0;
-      padding: 0;
-      border-top:1px solid $silk;
+      margin:0;
+      padding: 24px 0 0 0;
       z-index: 99;
 
       .nav-menu-item {
         border-bottom:1px solid $silk;
-        margin:0;
+        margin: 0;
+        padding: 0;
       }
 
       a {

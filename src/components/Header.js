@@ -44,6 +44,9 @@ class Header extends Component {
             <a href="#consultingservices">Consulting Services</a>
           </li>
           <li className="nav-menu-item">
+            <a href="#news">Feature Article</a>
+          </li>
+          <li className="nav-menu-item">
             <a href="#contactme">Contact</a>
           </li>
         </ul>

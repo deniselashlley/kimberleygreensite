@@ -1,8 +1,8 @@
 {
-  "cms.js": "render-page.js",
+  "cms.js": "bundle-for-css.js",
   "cms.js.map": "render-page.js.map",
   "main.css": "styles.css",
-  "main.js": "render-page.js",
+  "main.js": "bundle-for-css.js",
   "main.js.map": "render-page.js.map",
   "static/1abe3538-6d4f-4b92-ac74-528536de6139.eot": "static/1abe3538-6d4f-4b92-ac74-528536de6139.4799abba.eot",
   "static/2e503c84-d986-49ad-95a4-50359f580d54.ttf": "static/2e503c84-d986-49ad-95a4-50359f580d54.ec298ab7.ttf",
